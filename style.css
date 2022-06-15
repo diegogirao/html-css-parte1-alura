@@ -1,0 +1,52 @@
+body {
+    font-size: 20px;
+    margin: 0;
+    margin:  0 auto;
+
+}
+
+header {
+    background-color: #093364;
+    max-height: 100px;
+    height: 150px;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-main {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+    margin: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    max-width: 100;
+}
+
+.content {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+p em strong {
+    color: #093364;
+}
+
+.banner1 {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.banner1 img {
+    border-radius: 15px;
+}
+
