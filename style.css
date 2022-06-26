@@ -1,52 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 15px;
+	background-color: #051932;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+div ul li {
+	padding: 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+ul li a:hover {
+	text-decoration: underline;
+}
+
+.logo-alura h1 a {
+	text-decoration: none;
+}
+
 body {
-    font-size: 20px;
-    margin: 0;
-    margin:  0 auto;
+	background-color: #093364;
+}
+
+.sobre {
+	padding: 10px;
+	margin: 20px;
+	max-width: 100%;
 
 }
 
-header {
-    background-color: #093364;
-    max-height: 100px;
-    height: 150px;
-    margin: 0;
+#banner {
+	width: 100%;
 }
 
-.flex-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+h1 {
+	text-align: center;
 }
 
-.title-main {
-    color: #fff;
-    text-align: center;
-    font-size: 30px;
-    padding: 0;
-    margin: 15px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    max-width: 100;
+p {
+	text-align: justify;
+	margin: 10px;
+}
+
+#missao {
+	font-size: 20px;
+}
+
+em strong {
+	color: #FF0000;
 }
 
 .content {
-    font-family: 'Open Sans', sans-serif;
-    text-align: justify;
-    margin: 0 auto;
-    max-width: 1500px;
+	max-width: 80%;
+	margin: 0 auto;
 }
 
-p em strong {
-    color: #093364;
+.beneficio {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	margin: 20px;
+	max-width: 100%;
 }
-
-.banner1 {
-    display: flex;
-    justify-content: center;
-    margin: 15px;
-}
-
-.banner1 img {
-    border-radius: 15px;
-}
-
