@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	color: #fff;
 }
 
 nav {
@@ -24,6 +23,7 @@ div ul li {
 
 nav ul li a {
 	text-decoration: none;
+	color: #fff;
 }
 
 ul li a:hover {
@@ -32,6 +32,7 @@ ul li a:hover {
 
 .logo-alura h1 a {
 	text-decoration: none;
+	color: #fff;
 }
 
 body {
@@ -69,12 +70,26 @@ em strong {
 .content {
 	max-width: 80%;
 	margin: 0 auto;
+	color: #fff;
 }
 
-.beneficio {
-	display: flex;
-	justify-content: center;
+.itens {
+	font-style: italic;
+}
+
+.secao-beneficio {
+	background: #fff;
+	color: #051932;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.secao-beneficio .beneficio {
+	text-align: center;
 	padding: 10px;
-	margin: 20px;
-	max-width: 100%;
+	margin: 10px;
+}
+
+.list-beneficios {
+	margin: 0 30px;
 }
