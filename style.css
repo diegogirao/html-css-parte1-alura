@@ -78,18 +78,17 @@ em strong {
 }
 
 .secao-beneficio {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
 	background: #fff;
 	color: #051932;
 	padding: 20px;
 	margin-top: 20px;
+	border-radius: 15px 0;
 }
 
-.secao-beneficio .beneficio {
-	text-align: center;
-	padding: 10px;
-	margin: 10px;
-}
-
-.list-beneficios {
-	margin: 0 30px;
+.img-beneficio {
+	width: 50%;
+	border-radius: 0 15px;
 }
